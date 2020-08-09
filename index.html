@@ -37,11 +37,14 @@
         <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg="nest"></script>
          
       </head>
-<body>
+<body onload="loadfun()" >
+  
     
    
   <main>
+    <div id="loading"></div>
     <!-- division of section  -->
+    
     <section id="home">
         
        
@@ -639,6 +642,13 @@
       </div>
     </footer>
   </main>
+<script>
+var preloader=document.getElementById('loading');
+function loadfun()
+{
+  preloader.style.display='none';
+}
 
+</script>
 </body>
 </html>
