@@ -1,0 +1,23 @@
+.about-us-container
+{
+    display: flex;
+    justify-content: center;
+  
+}
+.about-us-content
+{
+  
+    text-align: center;
+
+}
+#about .team-link a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+#about .team-link a span
+{
+    background-color: rgba(255,255,255,.3);
+}
