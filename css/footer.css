@@ -3,7 +3,8 @@ html,body{
   margin-bottom: 0;
 }
 footer{
-    background: #494949;
+    /* background: #494949; */
+    background: #444;
     width: 100%;
     color: #eeeeee;
     z-index: 1000;
