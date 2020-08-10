@@ -51,6 +51,13 @@
     align-items: center;
     justify-content: space-between;
   }
+  .text-content .person-name{
+    font-family: 'Raleway', Courier, monospace;
+    font-size: 20px;
+  }
+  .text-content .name-body{
+    font-family: 'Open Sans', Courier, monospace;
+  }
   @media (max-width: 850px) {
     .timeline {
       grid-template-columns: auto auto;
