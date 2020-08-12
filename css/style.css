@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Open+Sans:wght@600&family=Oswald&family=Raleway&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Open+Sans:wght@600&family=Oswald&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+
+html,body{
+    background-color: #121212;
+}
 section {
     display: flex;
     flex-direction: column;
@@ -26,12 +31,13 @@ section {
     margin-top: 60px;
     color:white;
 	text-transform: uppercase;
-	font-size: 38px;
+	font-size: 40px;
 	word-spacing: 25px;
     letter-spacing: 2px;
     text-align: center;
     width: 100%;
-    
+    font-family: 'Montserrat', Courier, monospace;
+    /* font-weight: 800; */
     
 }
 
@@ -45,4 +51,17 @@ section#home .logo
 {
     border-radius: 100%;
 }
-
+.gallery-link{
+    margin-top: 50px;
+    
+}
+.gallery-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.gallery-link a span{
+    background: rgba(255, 255, 255, 0.1);
+}
+.gallery-link:hover a span{
+    box-shadow: 2px 2px 3px #fff;
+}

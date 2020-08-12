@@ -2,12 +2,14 @@
 {
     display: flex;
     justify-content: center;
+    
   
 }
 .about-us-content
 {
-  
+    
     text-align: center;
+    font-family: 'Raleway', Courier, monospace;
 
 }
 #about .team-link a
