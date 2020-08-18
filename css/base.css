@@ -5,19 +5,17 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	box-sizing: border-box;
 }
 
-html {
+/* html {
 	background: #000;
-}
+} */
 
 body {
 	font-family: 'Barlow', Helvetica, Arial, sans-serif;
 	font-weight: 500;
-	/* width:100%;
-	min-height: 100vh; */
-	color: #57585c;
+	
 	color: var(--color-text);
-	background-color: #000;
-	background-color: var(--color-bg);
+	
+	/* background-color: var(--color-bg); */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

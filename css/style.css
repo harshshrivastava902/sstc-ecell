@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
 
 html,body{
+
     background-color: #121212;
+}
+body.light
+{
+    background: lightcoral;
 }
 section {
     display: flex;

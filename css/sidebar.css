@@ -48,6 +48,9 @@ li:nth-child(6){
 li:nth-child(7){
 	background:transparent ;
 }
+li:nth-child(8){
+	background:transparent ;
+}
 li:hover{
 	background:rgb(10, 81, 148);
     transform: translateX(10em);

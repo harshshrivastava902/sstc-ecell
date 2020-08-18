@@ -69,6 +69,12 @@
               <nav class="side-menu">
                 <ul>
                   <li>
+                    <button onclick="myfunction()">theme</button><span class="side-span">
+                        <!-- <i><img src="images/logo/e-cell.png" width="24px" alt=""></i>
+                         -->
+                        <i class="fas fa-home"></i></span></a>
+                  </li>
+                  <li>
                     <a href="#home"
                       >Home<span class="side-span">
                         <!-- <i><img src="images/logo/e-cell.png" width="24px" alt=""></i>
@@ -743,6 +749,15 @@ function loadfun()
   preloader.style.display='none';
 }
 
+    function myfunction()
+    { 
+      var element=document.body;
+      element.classList.toggle('light');
+    
+    }
+ 
+    
+    
 </script>
   </body>
 </html>
