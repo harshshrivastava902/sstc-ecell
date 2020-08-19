@@ -1,5 +1,5 @@
 body{
-  background-color:black;
+  background-color:#222;
 }
 
 .section-head {
@@ -19,7 +19,7 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg,rgb(101, 101, 101),rgb(234, 234, 234),rgb(101, 101, 101));
+  background-color: #333;
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
 }
@@ -36,13 +36,13 @@ body{
 .section-head .content h1 {
   margin: 0;
   padding: 0;
-  background-color: #181515;
+  background-color: #ffffff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 5em;
 }
 .section-head .content p {
-  color: #004151;
+  color: #ff7d1f;
   font-size: 1.2em;
 }
 .faculty{
@@ -72,13 +72,14 @@ body{
     max-width: 250px;
     min-height: 250px;
     max-height: 250px;
-    background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
+    background-color: #333;
     text-align: center;
     overflow: hidden;
     position: relative;
     box-shadow: -3px -3px 20px 0 rgb(0, 0, 0),
     -3px -3px 20px 0 rgb(0, 0, 0);
     transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) .5s;
+    border-radius: 5%;
   }
 
   .our-team:hover{
@@ -90,7 +91,7 @@ body{
     margin: 30px;
     max-width: 250px;
     max-height: 250px;
-    background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
+    background: #333;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -101,6 +102,7 @@ body{
 
   .name{
     font-size: 1.38em;
+    color: white;
   }
 
   .team-content{
@@ -120,7 +122,7 @@ body{
     width: 100%;
     height: 0;
     border-radius: 50%;
-    background-color: #1369ce;
+    background-color: #fc531f;
     position: absolute;
     bottom: 135%;
     right: 0;
@@ -139,7 +141,7 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #1369ce;
+    background-color: #fc531f;
     position: absolute;
     top: 0;
     left: 0;
@@ -162,7 +164,7 @@ body{
   .our-team .tenure {
     display: block;
     font-size: 1.05em;
-    color: #484848;
+    color: #ff7d1f;
     text-transform: capitalize;
   }
 
@@ -173,7 +175,7 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #1369ce;
+    background-color: #fc531f;
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -187,12 +189,16 @@ body{
     align-items: center;
 
   }
+  .space{
+    opacity: 0;
+    font-size: 30px;
+  }
   
   .our-team .social li {
     display: inline-block;
   }
   .space{
-    opacity: 0;;
+    opacity: 0;
   }
   .our-team .social li a {
     display: block;
@@ -204,7 +210,7 @@ body{
   }
   
   .our-team .social li a:hover {
-    color: #1369ce;
+    color: #fc531f;
     background-color: #f7f5ec;
   }
 
