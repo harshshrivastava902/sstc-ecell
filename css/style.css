@@ -13,6 +13,7 @@
 html,body{
 
     background-color: var(--background);
+	transition: all 1s ease;
 }
 body.light
 {
@@ -23,6 +24,7 @@ body.light
 	--graphic-color1: #ceab78;
 	--graphic-color2: #794737;
     background: var(--background,#fff);
+	transition: all 1s ease;
 }
 section {
     display: flex;

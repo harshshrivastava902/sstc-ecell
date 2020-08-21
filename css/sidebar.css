@@ -61,6 +61,14 @@ li:hover{
 	color: white;
 	text-decoration: none;
 }
+.side-menu ul li button{
+	outline: none;
+	background: transparent;
+	border: none;
+	color: inherit;
+	font-size: 1em;
+	
+}
 .side-span{
 	display: block;
 	position: absolute;
