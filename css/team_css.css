@@ -1,5 +1,5 @@
 body{
-  background-color:black;
+  background-color: var(--background);/*changes*/
 }
 
 .section-head {
@@ -36,13 +36,13 @@ body{
 .section-head .content h1 {
   margin: 0;
   padding: 0;
-  background-color: #181515;
+  background-color: var(--text-color1);/*changes*/
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 5em;
 }
 .section-head .content p {
-  color: #004151;
+  color: var(--text-color2);/*changes*/
   font-size: 1.2em;
 }
 .faculty{
@@ -54,7 +54,7 @@ body{
   margin-top: 50px;
   font-family: "Recursive", sans-serif;
   font-size: 2em;
-  color: white;
+  color: var(--text-color1);/*changes*/
   text-shadow: 5.5px 5.5px rgb(0, 0, 0);
 }
   .row{
@@ -72,8 +72,10 @@ body{
     max-width: 250px;
     min-height: 250px;
     max-height: 250px;
-    background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
-    text-align: center;
+    /*background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
+    */
+	background: #fff;
+	text-align: center;
     overflow: hidden;
     position: relative;
     box-shadow: -3px -3px 20px 0 rgb(0, 0, 0),
@@ -90,8 +92,10 @@ body{
     margin: 30px;
     max-width: 250px;
     max-height: 250px;
-    background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
-    text-align: center;
+    /*background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
+    */
+	background: #fff;
+	text-align: center;
     overflow: hidden;
     position: relative;
     box-shadow: -3px -3px 20px 0 rgb(0, 0, 0),

@@ -1,14 +1,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Open+Sans:wght@600&family=Oswald&family=Raleway&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&family=Open+Sans:wght@600&family=Oswald&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap');
+:root {
+  --background: #222;
+  --foreground: #333;
+  --text-color1: #fc531f;
+  --text-color2: #8b71db;
+  --graphic-color1: #1d77d5;
+  --graphic-color2: #01295b;
+}
 html,body{
 
-    background-color: #121212;
+    background-color: var(--background);
+	transition: all 1s ease;
 }
 body.light
 {
-    background: lightcoral;
+	--background: #d7bb93;
+	--foreground: #dadbe6;
+	--text-color1: #023c59;
+	--text-color2: #245a5c;
+	--graphic-color1: #ceab78;
+	--graphic-color2: #794737;
+    background: var(--background,#fff);
+	transition: all 1s ease;
 }
 section {
     display: flex;
@@ -34,15 +50,15 @@ section {
      
  .sec-head{
     margin-top: 60px;
-    color:white;
+    color:var(--text-color1);
 	text-transform: uppercase;
 	font-size: 40px;
 	word-spacing: 25px;
     letter-spacing: 2px;
     text-align: center;
     width: 100%;
-    font-family: 'Montserrat', Courier, monospace;
-    /* font-weight: 800; */
+    font-family: 'Playfair Display', Courier, monospace;
+    font-weight: 700;
     
 }
 
@@ -50,7 +66,7 @@ section p{
 	margin-bottom: 15px;
 	font-size: 14px;
 	line-height: 20px;
-	color: #f3e7e7ce;
+	color:var(--text-color2);
 }
 section#home .logo
 {
@@ -62,11 +78,12 @@ section#home .logo
 }
 .gallery-link a{
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color2,#fff);
 }
 .gallery-link a span{
     background: rgba(255, 255, 255, 0.1);
+	padding:5px;
 }
 .gallery-link:hover a span{
-    box-shadow: 2px 2px 3px #fff;
+    box-shadow: 2px 2px 3px var(--foreground);
 }

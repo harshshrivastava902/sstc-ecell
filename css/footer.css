@@ -4,7 +4,7 @@ html,body{
 }
 footer{
     /* background: #494949; */
-    background: #444;
+    background: #313131;
     width: 100%;
     color: #eeeeee;
     z-index: 1000;
@@ -160,9 +160,11 @@ footer{
 .footer-bottom{
   text-align: center;
   width: 100%;
-  background: #383838;
-  color: #808080;
-  
+  background: #222;
+  color: #808080; 
+}
+.footer-bottom p a{
+	color: #aaa;
 }
 .footer-bottom:hover a{
   color: #9b9b9b;

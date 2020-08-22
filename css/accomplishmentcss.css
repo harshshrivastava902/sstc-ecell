@@ -9,7 +9,7 @@
     max-width: 300px;
     height: 80vh;
     max-height: 500px;
-    background: white;
+    background: var(--foreground); /*changes*/
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -29,7 +29,7 @@
   }
   .wrapper .inside {
     z-index: 9;
-    background: #fc531fd3;
+    background: var(--text-color1); /*changes*/
     width: 140px;
     height: 140px;
     position: absolute;
@@ -126,7 +126,7 @@
     background: rgba(255,255,255,0.1);
   } */
   .face2{
-    background: linear-gradient(90deg,#444,#222222,#444);
+    background: var(--foreground); /*changes*/
     transition: 0.5s;
   }
   .container:hover .face2{
@@ -153,11 +153,11 @@
     margin: 0;
     padding: 0;
     font-size: 25px;
-    color: #fff;
+    color: var(--text-color2);/*changes*/
     transition: 0.5s;
   }
   .details p{
-    color: aqua;
+    color: var(--text-color1);/*changes*/
     margin-bottom: auto;
     font-size: 20px;
     transition: 0.5s;
