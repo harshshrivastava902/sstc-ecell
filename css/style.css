@@ -12,6 +12,7 @@
   --text-color3: #fc531f; /* Startup-name*/
   --text-color4: #59d8fc; /* About-us content*/
   --foreground2: #333333;
+  --foreground3: #024668;
 }
 html,body{
 
@@ -23,12 +24,13 @@ body.light
 	--background: #dbb67e;
 	--foreground: #dadbe6;
 	--text-color1: #023c59;
-	--text-color2: #245a5c;
+	--text-color2: #ffffff;
 	--graphic-color1: #ceab78;
     --graphic-color2: #794737;
     --text-color3: #023c59;
     --text-color4: #59d8fc;
     --foreground2: #333333;
+    --foreground3: #024668;
     background: var(--background,#fff);
 	transition: all 1s ease;
 }

@@ -21,7 +21,7 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background: var(--foreground); /*changes*/
+    background: var(--foreground3); /*changes*/
     color: var(--text-color2); /* cant change*/
     border-radius: 5px;
     align-self: stretch;
@@ -34,11 +34,11 @@
     /* filter: grayscale(1) ; */
   }
 
-  /* .content1:hover
+  .content1:hover
   {
-    /* filter: grayscale(0) ; 
-    background: var(--foreground);
-  } */
+     filter: grayscale(0) ; 
+    color: cyan;
+  } 
   
   .content1 img {
     width: 100%;
