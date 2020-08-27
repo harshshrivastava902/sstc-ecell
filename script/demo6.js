@@ -8,7 +8,7 @@ var renderer = new THREE.WebGLRenderer({
 });
 renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
 renderer.setSize(width, height);
-renderer.setClearColor(0x191919);
+renderer.setClearColor(0x191919);//background for canva
 
 var scene = new THREE.Scene();
 

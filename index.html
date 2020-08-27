@@ -69,6 +69,12 @@
               <nav class="side-menu">
                 <ul>
                   <li>
+                    <button onclick="myfunction()">Change Theme</button><span class="side-span">
+                        <!-- <i><img src="images/logo/e-cell.png" width="24px" alt=""></i>
+                         -->
+                        <i class="fas fa-adjust"></i></span></a>
+                  </li>
+                  <li>
                     <a href="#home"
                       >Home<span class="side-span">
                         <!-- <i><img src="images/logo/e-cell.png" width="24px" alt=""></i>
@@ -398,7 +404,11 @@
               </div>
               <div class="text-content">
                 <h2 class="person-name">
+<<<<<<< HEAD
                   Dhirendra Pratap Singh Suryavanshi,<br> Srijan Kishor Das Vaishnav
+=======
+                  Dhirendra Pratap Singh Suryavanshi & Srijan Vaishnav
+>>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
                 </h2>
                 <h3 class="name-body">
                   Makethon Consolation Prize <br> (<i class="fas fa-rupee-sign"></i> 2,500)
@@ -743,6 +753,15 @@ function loadfun()
   preloader.style.display='none';
 }
 
+    function myfunction()
+    { 
+      var element=document.body;
+      element.classList.toggle('light');
+    
+    }
+ 
+    
+    
 </script>
   </body>
 </html>
