@@ -11,6 +11,7 @@
   --graphic-color2: #01295b;
   --text-color3: #fc531f; /* Startup-name*/
   --text-color4: #59d8fc; /* About-us content*/
+  --foreground2: #333333;
 }
 html,body{
 
