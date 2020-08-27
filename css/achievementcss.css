@@ -21,8 +21,8 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background: rgb(8, 8, 8);
-    color: #00ffc8;
+    background: var(--graphic-color2); /*changes*/
+    color: #00ffc8; /* cant change*/
     border-radius: 5px;
     align-self: stretch;
     justify-self: stretch;
@@ -31,7 +31,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    filter: grayscale(1);
+    filter: grayscale(1) ;
+	
   }
   .content1:hover
   {
