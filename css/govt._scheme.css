@@ -58,7 +58,8 @@ overflow:auto;
     width: 100%;
    visibility:hidden;
  }
-.texto p {  padding:2%; }
+.texto p {  padding:2%;
+color: var(--text-color4) }
 
 .vermas  { 
 margin-top:30px; 

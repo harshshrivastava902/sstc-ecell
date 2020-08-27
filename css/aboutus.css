@@ -10,35 +10,19 @@
     
     text-align: center;
     font-family: 'Raleway', Courier, monospace;
-
+    color: var(--text-color4);
 }
 #about .team-link a
 {
-<<<<<<< HEAD
-    color: cyan;
-=======
-    color: var(--text-color2);
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
+    color: var(--background);
     text-decoration: none;
     font-size: 2em;
+    
 }
 
 #about .team-link a span
 {
-<<<<<<< HEAD
-    background-color: rgba(145, 145, 145, 0.3);
-}
-
-#about .team-link a span{
-    transition: .5s linear;
-    border-radius: 5px;
-}
-#about .team-link a span:hover{
-    font-size: 1.3em;
-    color: #ff7d1f;
-    background-color: rgba(145, 145, 145, 0.3);
-=======
-    background-color: rgba(255,255,255,.2);
-	padding:5px;
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
+    background-color: #fff;
+    padding:5px;
+    border-radius: 10px;
 }

@@ -26,7 +26,7 @@
 }
 .contact-card{
     width: 100%;
-    background: var(--foreground);/*changes*/
+    background: var(--text-color1);/*changes*/
     align-self: center;
     max-width: 350px;
     padding: 25px;
@@ -39,7 +39,11 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--text-color1);/*changes*/
+  color: var(--background);/*changes*/
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: .4em;
+  
 }
 
 .wrapper .input_field{
@@ -78,8 +82,8 @@
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: var(--graphic-color2);/*changes*/
-  color: var(--text-color1);/*changes*/
+  background: var(--background);/*changes*/
+  color: var(--text-color3);/*changes*/
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;

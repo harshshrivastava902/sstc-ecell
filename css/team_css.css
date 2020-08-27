@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
-  background-color:#222;
-=======
   background-color: var(--background);/*changes*/
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
 }
 
 .section-head {
@@ -40,21 +36,16 @@ body{
 .section-head .content h1 {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  background-color: #ffffff;
-=======
   background-color: var(--text-color1);/*changes*/
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 5em;
 }
+.section-head .content cite{
+  color: var(--text-color4);
+}
 .section-head .content p {
-<<<<<<< HEAD
-  color: #ff7d1f;
-=======
   color: var(--text-color2);/*changes*/
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
   font-size: 1.2em;
 }
 .faculty{
@@ -84,15 +75,10 @@ body{
     max-width: 250px;
     min-height: 250px;
     max-height: 250px;
-<<<<<<< HEAD
-    background-color: #333;
-    text-align: center;
-=======
     /*background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
     */
 	background: #fff;
 	text-align: center;
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
     overflow: hidden;
     position: relative;
     box-shadow: -3px -3px 20px 0 rgb(0, 0, 0),
@@ -110,15 +96,10 @@ body{
     margin: 30px;
     max-width: 250px;
     max-height: 250px;
-<<<<<<< HEAD
-    background: #333;
-    text-align: center;
-=======
     /*background: linear-gradient(90deg,rgb(142, 141, 141),rgb(234, 234, 234),rgb(142, 141, 141));
     */
 	background: #fff;
 	text-align: center;
->>>>>>> 873134cce3ab17b66a5ae94f1ab89df57df89057
     overflow: hidden;
     position: relative;
     box-shadow: -3px -3px 20px 0 rgb(0, 0, 0),
