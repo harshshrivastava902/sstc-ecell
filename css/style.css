@@ -20,7 +20,7 @@ html,body{
 }
 body.light
 {
-	--background: #d7bb93;
+	--background: #dbb67e;
 	--foreground: #dadbe6;
 	--text-color1: #023c59;
 	--text-color2: #245a5c;
@@ -28,6 +28,7 @@ body.light
     --graphic-color2: #794737;
     --text-color3: #023c59;
     --text-color4: #59d8fc;
+    --foreground2: #333333;
     background: var(--background,#fff);
 	transition: all 1s ease;
 }

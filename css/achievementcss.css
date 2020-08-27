@@ -31,15 +31,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* filter: grayscale(0) ; */
+    /* filter: grayscale(1) ; */
   }
 
-  .content1:hover
+  /* .content1:hover
   {
-    filter: grayscale(0) ;
+    /* filter: grayscale(0) ; 
     background: var(--foreground);
-    color: #00ffc8;
-  }
+  } */
   
   .content1 img {
     width: 100%;
