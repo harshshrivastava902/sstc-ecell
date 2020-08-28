@@ -59,13 +59,15 @@ overflow:auto;
    visibility:hidden;
  }
 .texto p {  padding:2%;
-color: var(--text-color4) }
+color: var(--text-color4); 
+font-size: 1.2em;}
 
 .vermas  { 
 margin-top:30px; 
 background: var(--graphic-color1);/*changes*/  
 width:60px; 
 height:25px; 
+margin-left: 1em;
 border-radius:10%;
 text-align:center;
 }

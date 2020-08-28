@@ -61,7 +61,7 @@
   /* border: 1px solid #e0e0e0; */
   width: 100%;
   padding: 10px;
-  color: var(--text-color2);/*changes*/
+  color: var(--text-color5);/*changes*/
   background: var(--foreground);/*changes*/
   outline: none;
     border-bottom: 2px solid var(--text-color1);/*changes*/
@@ -70,7 +70,7 @@
 .wrapper textarea{
   resize: none;
   height: 80px;
-  color: var(--text-color2);/*changes*/
+  color: var(--text-color5);/*changes*/
   background: var(--foreground);/*changes*/
   outline: none;
     border-bottom: 2px solid var(--text-color1);/*changes*/
