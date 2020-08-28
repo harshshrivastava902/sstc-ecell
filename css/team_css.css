@@ -230,7 +230,7 @@ body{
   font-size: 3.5em;
 }
 .section-head .content p {
-  color: #004151;
+  color: var(--text-color2);
   font-size: 1em;
 }
 .team-heading {
