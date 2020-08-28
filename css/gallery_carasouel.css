@@ -81,6 +81,8 @@ letter-spacing: 2px;
 .gallery-link
 {
   display: flex;
-
   justify-content: center;
+}
+.gallery-link span{
+  color: var(--text-color4);
 }
