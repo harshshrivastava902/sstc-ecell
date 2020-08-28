@@ -7,7 +7,6 @@
 }
 .about-us-content
 {
-    
     text-align: center;
     font-family: 'Raleway', Courier, monospace;
     color: var(--text-color4);
@@ -25,4 +24,8 @@
     background-color: #fff;
     padding:5px;
     border-radius: 10px;
+}
+
+.mission-vision{
+    font-size: 2em;
 }

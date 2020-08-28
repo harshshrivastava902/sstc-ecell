@@ -73,6 +73,7 @@ text-align:center;
 }
 
 .vermas a { 
+  font-size: 1.6em;
 text-decoration:none; 
 color: var(--text-color1);/*changes*/
 }
