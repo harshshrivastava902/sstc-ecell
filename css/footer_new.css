@@ -32,7 +32,7 @@ footer{
     margin: 10px 0;
   }
   .left-col .content .logo-name{
-    font-size: 30px;
+    font-size: 1.3rem;
     font-family: 'Josefin Sans', Courier, monospace;
     font-weight: 500;
   }
@@ -52,12 +52,12 @@ footer{
   .contact-link a{
    margin: 20px;
     color: #eee;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .address a{
     color: #eee;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .social-media{
     width: 100%;
@@ -68,13 +68,13 @@ footer{
   .social-media a{
     color: #fff;
     margin-right: 25px;
-    font-size: 22px;
+    font-size: 1.5rem;
     text-decoration: none;
     transition: .3s linear;
   }
   
   .social-media a:hover{
-    color: #ff9d00;
+    color: #f44;
   }
  .right-col{
    width: 40vw;
@@ -86,10 +86,11 @@ footer{
   .right-col h2{
       margin: 10px;
     font-size: 26px;
-    width: fit-content;
+    width: 100%;
     align-self: flex-start;
     font-family: 'Josefin Sans', Courier, monospace;
     font-weight: 500;
+	text-align:center;
   }
   .right-col p{
     width: fit-content;
@@ -97,7 +98,7 @@ footer{
     font-family: 'Montserrat', Courier, monospace;
     font-family: 300;
     margin: 10px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   
   .border{
@@ -157,7 +158,7 @@ footer{
      display: block;
      text-decoration: none;
      color: #eee;
-     font-size: 1.5rem;
+     font-size: 1.1rem;
      font-family: 'Josefin Sans', Courier, monospace;
      margin: 15px 0; 
  }
@@ -167,7 +168,8 @@ footer{
    padding: 3%;
  }
  .middle-col p{
-   font-size: 25px;
+	 margin-top:0;
+   font-size: 1.5rem;
    font-family: 'Montserrat', Courier, monospace;
    font-weight: 600;
  }
@@ -177,14 +179,17 @@ footer{
   width: 100%;
   background: #383838;
   color: #808080;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+}
+.footer-bottom p{
+	margin:0;
 }
 .footer-bottom p a{
     color: #808080;
     text-decoration: none;
 }
 .footer-bottom p:hover a{
-    color: #999999;
+    color: #f44;
 }
   
   @media screen and (max-width:960px) {
@@ -213,6 +218,8 @@ footer{
     }
     .left-col{
       text-align: center;
+	  align-items:center;
+	  margin-left:0;
     }
       .left-col .logo-name{
         font-size: 25px;

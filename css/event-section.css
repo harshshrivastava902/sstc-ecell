@@ -205,6 +205,38 @@ main:nth-child(even){
     margin-bottom: 10px;
     color: var(--graphic-color1);/*changes*/
 }
+.left-col .content .logo-name{
+	font-size: 2rem;
+}
+.left-col .content .address a{
+	font-size: 1.5rem;
+}
+.contact-link a{
+	font-size:1.5rem;
+}
+.middle-col p{
+	font-size:2.5rem;
+}
+.middle-col a{
+	font-size:1.5rem;
+}
+.right-col h2{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+.right-col p{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.social-media a{
+  font-size: 2rem;
+  color: #fff;
+}
+.footer-bottom {
+	font-size:1.8rem;
+}
 @media screen and (max-width :1068px)
 {
     .blog-post_img
