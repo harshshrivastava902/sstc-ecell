@@ -2,7 +2,8 @@
 {
     display: flex;
     justify-content: center;
-    
+    margin-left: 10px;
+	margin-right: 10px;
   
 }
 .about-us-content
@@ -11,6 +12,9 @@
     text-align: center;
     font-family: 'Raleway', Courier, monospace;
 
+}
+.team-link{
+	margin-bottom: 30px;
 }
 #about .team-link a
 {
@@ -23,4 +27,7 @@
 {
     background-color: rgba(255,255,255,.2);
 	padding:5px;
+}
+#about .team-link a span i{
+	margin-right: 5px;
 }

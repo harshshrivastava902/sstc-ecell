@@ -191,6 +191,23 @@ footer{
 .footer-bottom p:hover a{
     color: #f44;
 }
+#contact-us p{
+	color: #fff;
+}
+#contact-us #contact-form-link p{
+	font-family:"Josefin Sans";
+	font-size: 2rem;
+	
+}
+#contact-form-link{
+	text-decoration:none;
+}
+#contact-us #contact-form-link p i{
+	margin-right: 5px;
+}
+#contact-us:hover p {
+	color: #f44;
+}
   
   @media screen and (max-width:960px) {
    

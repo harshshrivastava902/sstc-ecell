@@ -105,3 +105,14 @@
   font-size: 14px;
   transition: all 0.5s ease;
 }
+
+#contact-us #contact-form-link p{
+	font-family:"Josefin Sans";
+	font-size: 2rem;
+}
+#contact-us #contact-form-link p i{
+	margin-right: 5px;
+}
+#contact-form-link:hover p{
+	color: #f44;
+}
