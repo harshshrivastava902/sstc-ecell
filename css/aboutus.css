@@ -8,25 +8,30 @@
 }
 .about-us-content
 {
-    
     text-align: center;
     font-family: 'Raleway', Courier, monospace;
-
+    color: var(--text-color4);
 }
 .team-link{
 	margin-bottom: 30px;
 }
 #about .team-link a
 {
-    color: var(--text-color2);
+    color: var(--foreground3);
     text-decoration: none;
-    font-size: 1.5em;
-
+    font-size: 2em;
+    
 }
+
 #about .team-link a span
 {
-    background-color: rgba(255,255,255,.2);
-	padding:5px;
+    background-color: #fff;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.mission-vision{
+    font-size: 2em;
 }
 #about .team-link a span i{
 	margin-right: 5px;

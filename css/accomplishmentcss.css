@@ -29,7 +29,7 @@
   }
   .wrapper .inside {
     z-index: 9;
-    background: var(--text-color1); /*changes*/
+    background: var(--text-color3); /*changes*/
     width: 140px;
     height: 140px;
     position: absolute;
@@ -153,12 +153,11 @@
     margin: 0;
     padding: 0;
     font-size: 25px;
-    color: var(--text-color1);/*changes*/
+    color: var(--text-color5);/*changes*/
     transition: 0.5s;
   }
   .details p{
-	  
-    color: var(--graphic-color2);/*changes*/
+    color: var(--text-color3);/*changes*/
     margin-bottom: auto;
     font-size: 20px;
     transition: 0.5s;

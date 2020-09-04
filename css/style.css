@@ -3,12 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap');
 :root {
-  --background: #222;
-  --foreground: #333;
-  --text-color1: #fc531f;
-  --text-color2: #8b71db;
+  --background: #023c59;
+  --foreground: #024668;
+  --text-color1: white;
+  --text-color2: #dbb67e;
   --graphic-color1: #1d77d5;
   --graphic-color2: #01295b;
+  --text-color3: #fc531f; /* Startup-name*/
+  --text-color4: #59d8fc; /* About-us content*/
+  --text-color5: #dbb67e; 
+  --foreground2: #333333;
+  --foreground3: #024668;
 }
 html,body{
 
@@ -17,12 +22,17 @@ html,body{
 }
 body.light
 {
-	--background: #d7bb93;
+	--background: #dbb67e;
 	--foreground: #dadbe6;
 	--text-color1: #023c59;
-	--text-color2: #245a5c;
+	--text-color2: #ffffff;
 	--graphic-color1: #ceab78;
-	--graphic-color2: #794737;
+    --graphic-color2: #794737;
+    --text-color3: #023c59;
+    --text-color4: #000000;
+    --text-color5: #023c59;
+    --foreground2: #333333;
+    --foreground3: #024668;
     background: var(--background,#fff);
 	transition: all 1s ease;
 }

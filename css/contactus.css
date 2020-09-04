@@ -27,17 +27,17 @@
 }
 .contact-card{
     width: 100%;
-    background: var(--foreground);/*changes*/
+    background: var(--text-color1);/*changes*/
     align-self: center;
     max-width: 350px;
     padding: 5px 20px;
   border-radius: 5px;
-  box-shadow: 4px 4px 2px rgba(254,236,164,0.2); 
-  display: flex;
+  box-shadow: 4px 4px 2px var(--foreground2); 
+/*   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .contact-card h2{
@@ -45,10 +45,15 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--text-color1);/*changes*/
+  color: var(--background);/*changes*/
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: .4em;
+  
+/*   color: var(--text-color1);changes
   font-family: "Josefin Sans";
   font-size: 2rem;
-  width:100%;
+  width:100%; */
 }
 
 .contact-wrapper .input_field{
@@ -66,7 +71,7 @@
   /* border: 1px solid #e0e0e0; */
   width: 100%;
   padding: 10px;
-  color: var(--text-color2);/*changes*/
+  color: var(--text-color5);/*changes*/
   background: var(--foreground);/*changes*/
   outline: none;
     border-bottom: 2px solid var(--text-color1);/*changes*/
@@ -75,7 +80,7 @@
 .contact-wrapper textarea{
   resize: none;
   height: 80px;
-  color: var(--text-color2);/*changes*/
+  color: var(--text-color5);/*changes*/
   background: var(--foreground);/*changes*/
   outline: none;
     border-bottom: 2px solid var(--text-color1);/*changes*/
@@ -87,8 +92,8 @@
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: var(--graphic-color2);/*changes*/
-  color: var(--text-color1);/*changes*/
+  background: var(--background);/*changes*/
+  color: var(--text-color3);/*changes*/
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
@@ -99,7 +104,7 @@
 
 #error_message{
   margin-bottom: 20px;
-  background: #fe8b8e;
+  background: var(--text-color3);
   padding: 0px;
   text-align: center;
   font-size: 14px;

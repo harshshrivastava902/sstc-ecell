@@ -18,7 +18,7 @@ html{
     width: 100%;
 } */
 body{
-    background-color:var(--background);/*changes*/
+    background: var(--background);/*changes*/
 }
 
 /* body
@@ -91,7 +91,7 @@ main:nth-child(even){
     align-items: center;
     font-family: 'Montserrat', cursive;
     font-weight: 900;
-    background-color: transparents;
+    background-color: var(--background);
     width: 100%;
     text-align: center;
     
@@ -155,7 +155,7 @@ main:nth-child(even){
 } */
 .blog-post_date span{
     display: block;
-    color: #00ffdd;
+    color: var(--text-color4);
     font-size: 1.2rem;
     font-family: 'Montserrat', Courier, monospace;
     font-weight: 500;

@@ -21,8 +21,8 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background: var(--graphic-color2); /*changes*/
-    color: #00ffc8; /* cant change*/
+    background: var(--foreground3); /*changes*/
+    color: var(--text-color2); /* cant change*/
     border-radius: 5px;
     align-self: stretch;
     justify-self: stretch;
@@ -31,20 +31,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /*filter: grayscale(1) ;*/
-	
+    /* filter: grayscale(1) ; */
   }
-  /*
+
   .content1:hover
   {
-    filter: grayscale(0);
-  }*/
-  
+    filter: grayscale(0) ; 
+    color: cyan;
+  } 
+
   .content1 img {
     width: 100%;
     max-width: 200px;
     height: auto;
-   
+  
   }
   .text-content {
     display: flex;
