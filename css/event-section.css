@@ -91,7 +91,7 @@ main:nth-child(even){
     align-items: center;
     font-family: 'Montserrat', cursive;
     font-weight: 900;
-    background-color: var(--text-color2);
+    background-color: var(--background);
     width: 100%;
     text-align: center;
     
