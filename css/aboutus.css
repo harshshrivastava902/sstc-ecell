@@ -2,7 +2,8 @@
 {
     display: flex;
     justify-content: center;
-    
+    margin-left: 10px;
+	margin-right: 10px;
   
 }
 .about-us-content
@@ -10,6 +11,9 @@
     text-align: center;
     font-family: 'Raleway', Courier, monospace;
     color: var(--text-color4);
+}
+.team-link{
+	margin-bottom: 30px;
 }
 #about .team-link a
 {
@@ -28,4 +32,7 @@
 
 .mission-vision{
     font-size: 2em;
+}
+#about .team-link a span i{
+	margin-right: 5px;
 }
