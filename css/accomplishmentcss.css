@@ -163,8 +163,7 @@
     transition: 0.5s;
   }
   .details p span{
-	  background-color: #aaa;
+	  background-color: rgb(255, 255, 255);
 	padding: 0 5px;
-	margin:5px;
-	
+  margin:5px;
   }
