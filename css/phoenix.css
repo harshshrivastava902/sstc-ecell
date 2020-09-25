@@ -255,6 +255,8 @@ body{
 	 text-emphasis: none;
 	 color: #fff;
  }
+ /* Mobile View CSS (Changed on 25-09-20)*/
+
 @media only screen and (max-width: 600px){
 	.card__collection {
 	 position: relative;
@@ -268,4 +270,5 @@ body{
   justify-content: center;
   align-items: center;
   min-width: min-content; 
+}
 }
