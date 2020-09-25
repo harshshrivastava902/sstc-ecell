@@ -36,6 +36,7 @@ body{
 	 position: relative;
 	 display: block;
 	 /* background: rgba(10, 10, 10, .5); */
+	 transform: translateX(-4rem);
 	 padding: 20px;
 	 font-family: 'Raleway', sans-serif;
 	 overflow: hidden;
