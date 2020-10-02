@@ -13,15 +13,16 @@ body{
     color: white;
 }
 .top{
-    margin-top: 0%;
+    margin-top: -40px;
+    /* padding-top: -10px; */
     font-size: 120px;
     color: #004aad;
     text-decoration: underline;
 }
 .underline{
-      border-bottom: 4px solid currentColor;
+      border-bottom: 5px solid currentColor;
   display: inline-block;
-  line-height: 1;
+  line-height: 1.1;
 }
 .quarter-circle-top-right div{
     line-height: 80px;
@@ -43,6 +44,7 @@ body{
     font-size: 40px;
     color: white;
 }
+
 .quarter-circle-top-right{
     padding-top: 7%;
      padding-left: 15%;
@@ -78,9 +80,15 @@ body{
     padding: 0 0 2px;
 }
 
-.form-align{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#scroll{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
+#camp-amb{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
 /* Campus Ambassador code ends here */
