@@ -14,7 +14,6 @@ body{
 }
 .top{
     margin-top: -3rem;
-    padding-left: 4rem;
     /* padding-top: -10px; */
     font-size: 8rem;
     color: #004aad;
@@ -47,7 +46,7 @@ body{
 } */
 .quarter-circle-top-right h2{
     margin-top: -2.8rem;
-    padding-left: 54rem;
+    padding-left: 50rem;
     font-size: 40px;
     color: white;
 }
