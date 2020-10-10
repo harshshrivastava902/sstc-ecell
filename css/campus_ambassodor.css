@@ -103,6 +103,12 @@ body{
 #camp-amb a{
     text-decoration: none;
 }
+.ca-logo{
+    height: 4em;
+    width: auto;
+    margin-left: -40px;
+    margin-right: 20px;
+}
 
 
 
