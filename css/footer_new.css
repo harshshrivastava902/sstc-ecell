@@ -126,7 +126,7 @@ footer{
     padding: 0 20px;
   }
   
-  .btn{
+  .sub-btn{
     height: 40px;
     font-size: 16px;
     color: #f1f1f1;
@@ -141,7 +141,7 @@ footer{
     padding: 0 20px;
   }
   
-  .btn:hover{
+  .sub-btn:hover{
     opacity: .7;
   }
  .middle-col .nav-list{
@@ -180,9 +180,12 @@ footer{
   background: #383838;
   color: #808080;
   font-size: 1.1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .footer-bottom p{
-	margin:0;
+  margin:0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .footer-bottom p a{
     color: #808080;
