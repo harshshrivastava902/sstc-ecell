@@ -167,10 +167,13 @@ footer{
   text-align: center;
   width: 100%;
   background: #222;
-  color: #808080; 
+  color: #808080;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .footer-bottom p{
-	margin:0;
+  margin:0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .footer-bottom p a{
 	color: #aaa;
