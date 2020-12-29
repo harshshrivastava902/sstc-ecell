@@ -59,7 +59,7 @@ section {
     width: 100%;
     height: 100vh;
     z-index:999999999999999999;
-    background: #111 
+    background: black 
     url('https://i.pinimg.com/originals/85/e2/4b/85e24bd18e3658cd321688b4c34cc576.gif')
      no-repeat center;
 }
