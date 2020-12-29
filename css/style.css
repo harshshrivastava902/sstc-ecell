@@ -21,7 +21,8 @@
 html,body{
 
     background-color: var(--background);
-	transition: all 1s ease;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
 }
 body.light
 {
